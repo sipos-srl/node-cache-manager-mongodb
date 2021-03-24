@@ -237,8 +237,7 @@ class MongoStore {
       key: key
     };
     const opt = {
-      upsert: true,
-      w: 1
+      upsert: true      
     };
     store.getCollection()
       .then((collection) => {
