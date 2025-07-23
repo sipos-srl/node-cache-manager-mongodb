@@ -22,7 +22,7 @@
     "bluebird": "^3.5.3",
     "cache-manager": "^2.9.0",
     "lodash": "^4.17.15",
-    "mongodb": "^3.6.3"
+    "mongodb": "^5.5.0"
   },
   "devDependencies": {
     "cache-manager": "^3.4.0",
