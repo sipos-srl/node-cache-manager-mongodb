@@ -76,6 +76,9 @@ class MongoStore {
     store.MongoOptions.ttl = store.MongoOptions.ttl
       ? store.MongoOptions.ttl
       : 60 * 1000;
+    store.MongoOptions.promiseLibrary = Promise;
+    store.MongoOptions.useNewUrlParser = true;
+    store.MongoOptions.useUnifiedTopology = true;
     store.name = "mongodb";
     store.expireKey = "expire";
     store.coll = store.MongoOptions.collection || "cacheman";
